@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lab03-thinh
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
