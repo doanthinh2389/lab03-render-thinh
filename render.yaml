@@ -2,5 +2,5 @@ services:
   - type: web
     name: lab03-thinh
     env: python
-    buildCommand: ""
-    startCommand: "python app.py"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn Lab03:app"
